@@ -7,7 +7,7 @@ import enigma.core.Enigma;
 public class project {
 	public static enigma.console.Console cn = Enigma.getConsole("Who Wants to Be a Millionaire");
 	
-	public static String blank(int j, int length) // integration is needed length starting point
+	public static String blank(int j, int length) // integration is needed length starting point.
 	{
 		String blank = " ";
 		for(int i = 0; i + length < j; i++)
